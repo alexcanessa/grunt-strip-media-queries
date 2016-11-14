@@ -33,7 +33,7 @@ strip_media_queries: {
         },
         files: {
             src: './demo/**.css',
-            ignore: './demo/**.min.css
+            ignore: './demo/**.min.css'
         }
     }
 }
