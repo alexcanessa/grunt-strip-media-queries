@@ -6,7 +6,7 @@
 
 ## Getting Started
 
-This plugin requires Grunt `~0.4.5` and [strip-media-queries](https://github.com/alexcanessa/strip-media-queries) `^0.2.1`
+This plugin requires Node `~6.0.0`, Grunt `~0.4.5` and [strip-media-queries](https://github.com/alexcanessa/strip-media-queries) `^0.2.1`
 
 ```shell
 npm install grunt-strip-media-queries --save-dev
