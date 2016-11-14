@@ -24,8 +24,6 @@ module.exports = function(grunt) {
     var done = this.async();
     var stripper = new Stripper(options);
 
-    console.log(stripper);
-
     stripper.launch()
         .then(() => {
             console.log(`\n${chalk.green('All done!')}`);
