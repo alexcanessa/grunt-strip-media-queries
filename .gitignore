@@ -1,3 +1,4 @@
 node_modules
 demo
 !demo/style.css
+!demo/style.ignore.css

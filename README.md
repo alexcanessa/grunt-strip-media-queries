@@ -28,11 +28,12 @@ See full options are the same as [strip-media-queries](https://github.com/alexca
 strip_media_queries: {
     mobile: {
         options: {
+            dest: './demo/mobile-queries.css',
             width: 400
         },
         files: {
-            src: './demo/**.css',
-            dest: './demo/mobile-queries.css'
+            src: './demo/**.css,
+            ignore: './demo/**.min.css
         }
     }
 }

@@ -15,11 +15,12 @@ module.exports = function(grunt) {
         strip_media_queries: {
             mobile: {
                 options: {
+                    dest: './demo/mobile-queries.css',
                     width: 400
                 },
                 files: {
                     src: './demo/**.css',
-                    dest: './demo/mobile-queries.css'
+                    ignore: './demo/**.ignore.css'
                 }
             }
         }
