@@ -1,0 +1,33 @@
+{
+  "name": "grunt-strip-media-queries",
+  "version": "0.1.0",
+  "description": "Grunt task for the npm module strip-media-queries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexcanessa/grunt-strip-media-queries.git"
+  },
+  "keywords": [
+    "grunt",
+    "task",
+    "strip",
+    "media",
+    "queries",
+    "ie9"
+  ],
+  "author": "alexcanessa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexcanessa/grunt-strip-media-queries/issues"
+  },
+  "homepage": "https://github.com/alexcanessa/grunt-strip-media-queries#readme",
+  "dependencies": {
+    "strip-media-queries": "^0.2.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
+}
