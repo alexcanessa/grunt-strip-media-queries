@@ -32,7 +32,7 @@ strip_media_queries: {
             width: 400
         },
         files: {
-            src: './demo/**.css,
+            src: './demo/**.css',
             ignore: './demo/**.min.css
         }
     }
