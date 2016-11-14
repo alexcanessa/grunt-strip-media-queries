@@ -25,9 +25,9 @@ module.exports = function(grunt) {
     var stripper = new Stripper(options);
 
     stripper.launch()
-        .then(() => {
-            console.log(`\n${chalk.green('All done!')}`);
-            done();
-        });
+        .then(function() {
+            console.log('All done!');
+        })
+        .then(done);
   });
 };
