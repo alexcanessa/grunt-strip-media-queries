@@ -1,6 +1,6 @@
 {
   "name": "grunt-strip-media-queries",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Grunt task for the npm module strip-media-queries",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/alexcanessa/grunt-strip-media-queries#readme",
   "dependencies": {
-    "strip-media-queries": "^0.3.1"
+    "strip-media-queries": "^0.4.0"
   },
   "devDependencies": {
     "grunt": "^1.0.1"
